@@ -53,7 +53,7 @@ if (process.env.EXPORT !== 'true') {
 module.exports = plugins(
   [
     [
-      withOffline,
+      // withOffline,
       {
         workboxOpts: {
           swDest: process.env.NEXT_EXPORT
